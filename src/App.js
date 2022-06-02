@@ -4,11 +4,19 @@ import React from "react";
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Hello from "./components/hello";
+import Message from "./components/Message";
+import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 
 class App extends React.Component{
   render() {
     return (
         <div className="App">
+          <ClassClick/>
+          <FunctionClick/>
+          <Counter/>
+          <Message/>
           <p>Hello World!</p>
           <Greet name="Angel"/>
           <Greet name="Mike"/>
