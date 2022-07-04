@@ -8,11 +8,16 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
+import MyFirstGrid from "./components/GridLayout"
+import LineChart from "./components/LineChart"
+
 
 class App extends React.Component{
   render() {
     return (
         <div className="App">
+          {/*<EventBind/>
           <ClassClick/>
           <FunctionClick/>
           <Counter/>
@@ -23,7 +28,9 @@ class App extends React.Component{
           <Greet name="Jerry"/>
           <Welcome name="Nick"/>
           <Welcome name="Jim"/>
-          <Welcome name="Jeff"/>
+          <Welcome name="Jeff"/>*/}
+          <LineChart/>
+          <MyFirstGrid/>
         </div>
     )
   }
