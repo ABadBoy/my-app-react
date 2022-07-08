@@ -11,6 +11,8 @@ import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
 import MyFirstGrid from "./components/GridLayout"
 import LineChart from "./components/LineChart"
+import VisibilityToggle from "./components/VisibilityToggle";
+import User from "./components/User";
 
 
 class App extends React.Component{
@@ -31,8 +33,10 @@ class App extends React.Component{
           <Welcome name="Jeff"/>*/}
           <LineChart/>
           <MyFirstGrid/>
+          <VisibilityToggle/>
+          <User name={"hello"} age={18}/>
         </div>
-    )
+    );
   }
 }
 
